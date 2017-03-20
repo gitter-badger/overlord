@@ -1,13 +1,7 @@
-const http = require('http');
+const config = require('./config.json');
+const web = require('./services/web');
+const bot = require('./services/bot');
 
-const port = 80;
-
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
-});
-
-server.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}/`);
+web.listen(config.web.port, function(err) {
+	console.log(`Web service listening on port ${config.web.port}`);
 });
