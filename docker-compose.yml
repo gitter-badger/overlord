@@ -9,6 +9,7 @@ services:
         volumes:
             - "./node/code:/code"
         working_dir: "/code"
+        command: ["node", "index.js"]
     redis:
         image: redis:3.2
         ports:
