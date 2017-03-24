@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.2",
+    "pug": "^2.0.0-beta11",
     "redis": "^2.7.1",
     "tmi.js": "^1.1.2"
   }
