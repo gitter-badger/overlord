@@ -1,0 +1,17 @@
+# Setup
+title:        OVERLORD
+tagline:      ""
+baseurl:      "/overlord"
+paginate:     1
+
+# About/contact
+author:
+  name:       Alfred Dobradi
+  url:        http://twitter.com/barveyhirdman
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
