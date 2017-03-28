@@ -37,7 +37,12 @@ module.exports = (config) => {
 		});
 
 		req.end();
-	}
+	},
+
+	this.getLastFollower = (callback) => {
+		let url = `/kraken/channels/${this.config.twitch.userid}/follows?limit=1`;
+		this.makeRequest(url, callback);
+	};
 
 	return this;
 }

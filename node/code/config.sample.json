@@ -8,5 +8,9 @@
 		"client_id": "",
 		"userid": "",
 		"username": ""
+	},
+	"redis": {
+		"host": "",
+		"port": ""
 	}
 }

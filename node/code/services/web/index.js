@@ -11,11 +11,11 @@ app.set('view engine', 'pug');
 const MainController = require('./controllers/MainController.js')(config);
 const ApiController = require('./controllers/ApiController.js')(config);
 
-app.get('/', MainController.home);
+app.get('/', (req, res) => {
+	res.send('ok');
+});
 
-app.get('/inc', MainController.inc);
-
-app.get('/pug', MainController.pug);
+app.get('/overlay', MainController.overlay);
 
 app.get('/api/last-follower', ApiController.getLastFollower);
 
