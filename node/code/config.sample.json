@@ -1,0 +1,16 @@
+{
+	"web": {
+		"port": "8080",
+		"views_dir": "views",
+		"alpha_bg": ""
+	},
+	"twitch": {
+		"client_id": "",
+		"userid": "",
+		"username": ""
+	},
+	"redis": {
+		"host": "",
+		"port": ""
+	}
+}

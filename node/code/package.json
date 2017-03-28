@@ -1,0 +1,15 @@
+{
+  "name": "overlord",
+  "version": "0.1.0",
+  "description": "twitch bot/overlay master",
+  "main": "index.js",
+  "repository": "https://github.com/AlfredDobradi/overlord",
+  "author": "Alfred Dobradi <alfreddobradi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11",
+    "redis": "^2.7.1",
+    "tmi.js": "^1.1.2"
+  }
+}
